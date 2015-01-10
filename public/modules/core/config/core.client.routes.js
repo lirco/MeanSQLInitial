@@ -40,23 +40,3 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 //      })
   }
 ]);
-
-////Setting up route
-//angular.module('pythiaCharts').config(['$routeProvider',
-//  function($routeProvider) {
-//    $routeProvider.
-//      when('/', {
-//        templateUrl: 'modules/core/views/home.client.view.html'
-//      }).
-//      otherwise({
-//        redirectTo: '/'
-//      });
-//  }
-//]);
-//
-////Setting HTML5 Location Mode
-//angular.module('pythiaCharts').config(['$locationProvider',
-//  function($locationProvider) {
-//    $locationProvider.hashPrefix("!");
-//  }
-//]);
