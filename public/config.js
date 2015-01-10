@@ -7,8 +7,7 @@
 var ApplicationConfiguration = (function() {
   // Init module configuration options
   var applicationModuleName = 'pythiaCharts';
-  var applicationModuleVendorDependencies = ['ngCookies', 'ngResource', 'ngRoute', 'ui.bootstrap', 'ui.route'];
-//  var applicationModuleVendorDependencies = ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'd3'];
+  var applicationModuleVendorDependencies = ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'd3'];
 
   // Add a new vertical module
   var registerModule = function(moduleName, dependencies) {

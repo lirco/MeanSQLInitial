@@ -27,9 +27,7 @@
 (function () {
 
   function headerController(scope) {
-    console.log('***************************************');
-    console.log('yo');
-    console.log('***************************************');
+
   }
 
   angular.module('core')
